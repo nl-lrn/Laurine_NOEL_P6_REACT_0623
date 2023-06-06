@@ -1,7 +1,10 @@
+import Card from "../Cards";
+
 function DisplayCards() {
     return (
         <section>
-            <h2>Blah</h2>
+            <p>Display Cards</p>
+            <Card />
         </section>
     )
 };

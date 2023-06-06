@@ -1,0 +1,44 @@
+.kasa-footer {
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+}
+
+.kasa-logo-footer {
+    width: 10%
+}
+
+.kasa-footer p {
+    font-size: 2.3rem;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1027px){
+    .kasa-logo-footer {
+        width: 12%
+    }
+
+    .kasa-footer p {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px){
+    .kasa-logo-footer {
+        width: 15%
+    }
+
+    .kasa-footer p {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .kasa-logo-footer {
+        width: 24%
+    }
+
+    .kasa-footer p {
+        font-size: 1rem;
+    }
+}

@@ -1,6 +1,6 @@
 function Collapse() {
     return (
-        <p>hjsdjdi</p>
+        <p>Collapse</p>
     )
 };
 

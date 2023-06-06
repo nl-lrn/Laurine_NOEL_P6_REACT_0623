@@ -2,7 +2,7 @@ function Banner() {
     return (
         <div>
             {/* <img src="" alt="" /> */}
-            <p>METTRE TITRE ICI</p>
+            <p>BANNER</p>
         </div>
         
     )

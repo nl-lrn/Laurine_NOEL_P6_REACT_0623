@@ -1,0 +1,75 @@
+.kasa-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+.kasa-logo-header {
+    width: 15%;
+}
+
+.kasa-nav a {
+    padding-top: 20px;
+    margin: 0px 20px;
+    color: #FF6060;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.kasa-nav a:hover {
+    border-bottom: #FF6060 solid 1.5px;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1027px){
+    .kasa-header {
+        display: flex;
+        align-items: center;
+        margin: 30px 35px;
+    }
+
+    .kasa-logo-header {
+        width: 17%;
+    }
+
+    .kasa-nav a {
+        /* margin: 0px 17px; */
+        font-size: 1.9rem;
+    }
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px){
+    .kasa-header {
+        display: flex;
+        align-items: center;
+        margin: 30px 30px;
+    }
+
+    .kasa-logo-header {
+        width: 20%;
+        padding:10px;
+    }
+
+    .kasa-nav a {
+        margin: 0px 13px;
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .kasa-header {
+        display: flex;
+        align-items: center;
+        margin: 30px 10px;
+    }
+
+    .kasa-logo-header {
+        width: 25%;
+        padding:10px;
+    }
+
+    .kasa-nav a {
+        margin: 0px 10px;
+        font-size: 1.6rem;
+    }
+}
