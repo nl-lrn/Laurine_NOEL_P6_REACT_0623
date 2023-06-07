@@ -1,9 +1,10 @@
-function Banner() {
+import '../../styles/Banner.css';
+
+function Banner({children}) {
     return (
-        <div>
-            {/* <img src="" alt="" /> */}
-            <p>BANNER</p>
-        </div>
+        <section className='kasa-banner kasa-bgImgHome kasa-bgImgAbout'>
+            {children}
+        </section>
         
     )
 };
