@@ -1,7 +1,15 @@
 .kasa-banner {
-    color: black;
+    color: white;
     border-radius: 25px;
     margin: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kasa-banner span {
+    font-size: 5rem;
+    text-align: center;
 }
 
 .kasa-bgImgHome {
@@ -9,6 +17,18 @@
     background-size: cover;
     background-position: 50% 52%;
     height: 220px;
-    /* width: 1240px; */
     text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1027px){
+    
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px){
+    
+}
+
+@media screen and (max-width: 549px) {
+    
 }

@@ -1,0 +1,27 @@
+.kasa-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+    background-color: #FF6060;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+span.kasa-collapse  {
+    padding-left: 10px;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1027px){
+    
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px){
+    
+}
+
+@media screen and (max-width: 549px) {
+    
+}

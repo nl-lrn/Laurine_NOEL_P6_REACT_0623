@@ -1,13 +1,14 @@
-import Banner from "../../components/Banner"
-import Collapse from "../../components/Collapse"
+import Banner from "../../components/Banner";
+import AboutInfos from "../../components/AboutInfos";
+import '../../styles/About.css';
 
 function About() {
     return (
         <section>
             {/* implantation des bannières - pages Home et About */}
             <Banner />
-            {/* implantation du plier/déplier - page About */}
-            <Collapse />
+            {/*  */}
+            <AboutInfos />
         </section>
         
     )

@@ -17,15 +17,30 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    margin: 60px 35px 30px 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
 }
 
 .kasa-coverImg {
-    width: 340px;
-    height: 340px;
+    width: 360px;
+    height: 360px;
     border-radius: 10px;
+    background-size: cover;
+    background-position: center;
 }
 
 .kasa-cardsInfo p {
     color:blueviolet;
+}
+
+@media screen and (min-width: 781px) and (max-width: 1027px){
+    
+}
+
+@media screen and (min-width: 550px) and (max-width: 780px){
+    
+}
+
+@media screen and (max-width: 549px) {
+    
 }
