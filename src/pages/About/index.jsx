@@ -1,14 +1,14 @@
 import Banner from "../../components/Banner";
-import AboutInfos from "../../components/AboutInfos";
 import '../../styles/About.css';
+import CollapseInfo from "../../components/CollapseInfo";
 
 function About() {
     return (
         <section>
             {/* implantation des bannières - pages Home et About */}
             <Banner />
-            {/*  */}
-            <AboutInfos />
+            {/* implantation du système du plier/déplier */}
+            <CollapseInfo />
         </section>
         
     )

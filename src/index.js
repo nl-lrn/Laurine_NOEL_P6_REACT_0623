@@ -9,9 +9,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 // importation du composants en cas d'erreur de route dans l'URL
 import Error from './components/Error';
+// importation des logements
+import { logements } from './datas/logements';
 // importation du style
 import './styles/style.css';
- 
+
 ReactDOM.render(
     <React.StrictMode>
         <Router>
@@ -20,8 +22,8 @@ ReactDOM.render(
             <Routes>
                 {/* gestion des différentes paths utilisées */}
                 <Route path="/" element={<Home />} />
-
                 <Route path="/about" element={<About />} />
+                <Route path="datas/logements/:id" element={logements} />
                 {/* le '*' permet de capter toutes les paths non-utilisées ou non-existantes en gérant les erreurs d'URL */}
                 <Route path="*" element={<Error />} />
             </Routes>
