@@ -1,9 +1,69 @@
+.kasa-dropDown {
+    margin: 30px 200px;
+    width: 1020px;
+    color:#FF6060;
+    background-color: #F6F6F6;
+    border-radius: 5px 5px 0 0;
+    line-height: 25px;
+}
+
+.kasa-dropDown span {
+    visibility: hidden;
+}
+
+.kasa-collapse-flex {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 23px;
+}
+
+.kasa-collapse-flex h3 {
+    font-weight: 400;
+}
+
 .kasa-dropDownOpen {
-    background-color: pink;
+    width: 1020px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #FF6060;
+}
+
+.kasa-dropDownClose {
+    width: 1020px;
+    height: 45px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #FF6060;
+}
+
+.kasa-dropDown p {
+    border-radius: 0 0 5px 5px;
+    width: 950px;
+    padding: 0 20px 10px 20px;
+    margin:10px;
 }
 
 @media screen and (min-width: 781px) and (max-width: 1027px){
+    .kasa-dropDown {
+        width: 700px;
+        margin: 30px 150px;
+    }
+
+    .kasa-dropDownOpen {
+        width: 700px;
+    }
     
+    .kasa-dropDownClose {
+        width: 700px;
+    }
+
+    .kasa-dropDown p {
+        width: 650px;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 780px){

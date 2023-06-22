@@ -29,14 +29,14 @@ function CollapseInfo() {
     ];
 
     return (
-        <ul>
+        <div>
             {infosAbout.map(({id, label, description}) => 
             <Collapse key={id}
                 label={label}
                 description={description}
             />
             )}
-        </ul>
+        </div>
         )
 };
 

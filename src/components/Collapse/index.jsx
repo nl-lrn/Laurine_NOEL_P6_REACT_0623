@@ -6,23 +6,24 @@ function Collapse(props) {
 
     return isVisible ? (
         <section className="kasa-dropDown">
-            <button
-                className="kasa-dropDownOpen"
-                onClick={() => setIsVisible(false)}
-            >
+            <button className="kasa-dropDownClose" onClick={() => setIsVisible(false)}>
+                <div className='kasa-collapse-flex'>
                 <h3>{props.label}</h3>
                 <span>Ouvrir le descriptif</span>
+                <i className="fa-sharp fa-solid fa-chevron-down"></i></div>
             </button>
         </section>
     ) : (
-        <section className="kasa-dropDownUp">
-            <button onClick={() => setIsVisible(true)}>
+        <section className="kasa-dropDown">
+            <button className="kasa-dropDownOpen" onClick={() => setIsVisible(true)}>
+                <div className='kasa-collapse-flex'>
                 <h3>{props.label}</h3>
                 <span>Fermer le descriptif</span>
+                <i className="fa-sharp fa-solid fa-chevron-up"></i></div>
             </button>
-            <p key={props.id}>
+            <div className="kasa-collapseDescription" key={props.id}>
                 <p>{props.description}</p>
-            </p>
+            </div>
         </section>
     );
 }

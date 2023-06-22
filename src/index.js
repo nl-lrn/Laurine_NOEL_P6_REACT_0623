@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 // importation du composants en cas d'erreur de route dans l'URL
 import Error from './components/Error';
 // importation des logements
-import { logements } from './datas/logements';
+import { logements } from './datas/logements.js';
 // importation du style
 import './styles/style.css';
 
