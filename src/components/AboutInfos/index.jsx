@@ -1,17 +1,13 @@
-import Collapse from "../Collapse";
+import Collapse from '../Collapse';
 import '../../styles/About.css';
 
-function AboutInfos () {
-    
+function AboutInfos() {
     return (
-        <section className='kasa-dropDownClose'>
-                {/* implantation du plier/déplier - page About */}
-                
-                        
-                        <Collapse
-                        />
-            </section>
-    )
-};
+        <section className="kasa-dropDownClose">
+            {/* implantation du plier/déplier - page About */}
+            <Collapse />
+        </section>
+    );
+}
 
 export default AboutInfos;

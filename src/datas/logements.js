@@ -3,7 +3,7 @@ export const logements = [
 		id: "c67ab8a7",
 		title: "Appartement cosy",
 		cover: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
-		"pictures": [
+		pictures: [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-2.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-20-3.jpg",
@@ -157,7 +157,7 @@ export const logements = [
 		id: "f72a452f",
 		title: "Studio d'artiste",
 		cover: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
-		"pictures": [
+		pictures: [
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-1.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-2.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-5-3.jpg",
@@ -193,8 +193,8 @@ export const logements = [
 		],
 		description: "Ce Studio entièrement fonctionnel sera votre parfait pied à terre pour toutes vos excursions parisiennes. Idéalement situé près des lignes 2 et 4, vous accéderez très rapidement à tous les points touristiques de Paris.",
 		host: {
-			"name": "Hugo Perrier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
+			name: "Hugo Perrier",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		rating: 3,
 		location: "Ile de France - Paris 18e",
@@ -259,8 +259,8 @@ export const logements = [
 		],
 		description: "Paris vous tend les bras ! En famille ou entre amis, venez découvrir la ville de l'amour dans un appartement de goût. Vous pourrez profiter de tous les commerces seulement à quelques minutes de l'appartement. Sa proximité avec la gare Montparnasse en fait également un choix idéal pour celles et ceux qui doivent prendre un train.",
 		host: {
-			"name": "Adrien Chiran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
+			name: "Adrien Chiran",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Paris 14e",
@@ -289,8 +289,8 @@ export const logements = [
 		],
 		description: "Respirer en plein coeur de Paris ? C'est possible ! Avec vue sur un parc résidentiel, vous pourrez ouvrir les fenêtres sans avoir à souffrir du bruit des voitures et de la pollution. Au contraire, vous pourrez écouter les oiseaux. Notre appartement est également idéalement situé au coeur du 11ème arrondissement. Proche des lignes 3 et 2, vous pourrez découvrir Paris sans effort !",
 		host: {
-			"name": "Adrien Chiran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
+			name: "Adrien Chiran",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-6.jpg"
 		},
 		rating: 3,
 		location: "Ile de France - Paris 11e",
@@ -321,8 +321,8 @@ export const logements = [
 		],
 		description: "Situé en plein coeur du Marais, notre studio est idéal pour les touristes en quête de découverte. Sa cuisine toute équipée est particulièrement pratique.",
 		host: {
-			"name": "Victor Moran",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
+			name: "Victor Moran",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-7.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Paris 11e",
@@ -350,8 +350,8 @@ export const logements = [
 		],
 		description: "Idéalement situé à 2 pas de la place de la République, ce studio particulièrement fonctionnel est parfait pour découvrir Paris. Proche de tous les points d'intérêts grâce aux 5 lignes de métro qui sont à 5 minutes, vous pourrez rentabiliser votre temps passé à la capitale.",
 		host: {
-			"name": "Sarah Devit",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
+			name: "Sarah Devit",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		rating: 3,
 		location: "Ile de France - Paris 3e",
@@ -384,8 +384,8 @@ export const logements = [
 		],
 		description: "Quittez Paris pour vous mettre au vert. À seulement 30 minutes de la Gare du Nord, venez découvrir la forêt d'Ecouen directement depuis la fenêtre de votre bungalow. Entièrement équipé, ce logement saura vous accueillir dans le confort, tout en vous permettant de vous concentrer sur l'essentiel. Le matin, ouvrez les fenêtres, et profitez du chant des oiseaux.",
 		host: {
-			"name": "Sarah Devit",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
+			name: "Sarah Devit",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-8.jpg"
 		},
 		rating: 5,
 		location: "Ile de France - Ecouen",
@@ -415,8 +415,8 @@ export const logements = [
 		],
 		description: "Vous chercher un endroit pour fêter un anniversaire entre amis tout en restant proche de Paris ? Ne cherchez plus ! Entièrement équipée, cette maison est l'endroit idéal pour se regrouper.",
 		host: {
-			"name": "Karen Guillet",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
+			name: "Karen Guillet",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Arnouville",
@@ -449,8 +449,8 @@ export const logements = [
 		],
 		description: "Maison T5. Idéale pour grands groupes. 45 minutes de Paris Saint-Lazare.",
 		host: {
-			"name": "Karen Guillet",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
+			name: "Karen Guillet",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-9.jpg"
 		},
 		rating: 3,
 		location: "Ile de France - Arnouville",
@@ -485,8 +485,8 @@ export const logements = [
 		],
 		description: "Si vous êtes à la recherche de l'endroit idéal pour poser vos valises entre deux rdvs d'affaire, ne cherchez plus. Notre loft est l'endroit idéal. En plein coeur de la Défense, il dispose également de tous les équipements pour que vous soyez comme chez vous.",
 		host: {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+			name: "Julie Donatella",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		rating: 3,
 		location: "Ile de France - La Défense",
@@ -518,8 +518,8 @@ export const logements = [
 		],
 		description: "Ce charmant appartement offre des prestations de luxe, aux portes de Paris. À deux pas de la ligne 3, vous pourrez accéder à toutes les attractions touristiques dont vous avez toujours rêvées.",
 		host: {
-			"name": "Julie Donatella",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
+			name: "Julie Donatella",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-10.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Levallois",
@@ -545,8 +545,8 @@ export const logements = [
 		],
 		description: "Cette chambre dispose de toutes les facilités nécessaires. Proche métro et commerces.",
 		host: {
-			"name": "Hugo Perrier",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
+			name: "Hugo Perrier",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-4.jpg"
 		},
 		rating: 2,
 		location: "Ile de France - Paris 20e",
@@ -571,8 +571,8 @@ export const logements = [
 		],
 		description: "Ce studio décoré avec goût sera votre nid douillet après une longue journée passée à découvrir Paris.",
 		host: {
-			"name": "Michel Romy",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
+			name: "Michel Romy",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-11.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Paris 13e",
@@ -598,8 +598,8 @@ export const logements = [
 		],
 		description: "Au coeur du quartier historique du Marais, cet appartement est idéal pour un couple à la découverte de Paris. Situé sur la rue de Rivoli, il est à 5 minutes du Louvre.",
 		host: {
-			"name": "Nathalie Jean",
-			"picture": "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
+			name: "Nathalie Jean",
+			picture: "https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/profile-picture-12.jpg"
 		},
 		rating: 4,
 		location: "Ile de France - Paris 13e",

@@ -1,12 +1,11 @@
 import '../../styles/Banner.css';
 
-function Banner({children}) {
+function Banner({ children }) {
     return (
-        <section className='kasa-banner kasa-bgImgHome kasa-bgImgAbout'>
+        <section className="kasa-banner kasa-bgImgHome kasa-bgImgAbout">
             {children}
         </section>
-        
-    )
-};
+    );
+}
 
 export default Banner;
