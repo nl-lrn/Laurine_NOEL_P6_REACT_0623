@@ -1,20 +1,15 @@
-import { logements } from "../../datas/logements";
+import { logements } from '../../datas/logements';
 import { useParams } from 'react-router-dom';
 
 function Tag() {
-    
-    const id  = useParams();
-    const idLogement = id.id;
-
-    const logement = logements.find((logement) => logement.id === idLogement);
+    const { id } = useParams();
+    const logement = logements.find((logement) => logement.id === id);
 
     return (
         <section>
-                <p>
-                    {logement && logement.tags}
-                </p>
-        </section>   
-    )
+            <p>{logement && logement.tags}</p>
+        </section>
+    );
 }
 
 export default Tag;

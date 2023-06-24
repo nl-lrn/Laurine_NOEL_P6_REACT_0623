@@ -5,11 +5,10 @@ import logoHeader from '../../assets/logoHeader.png';
 function Header() {
     return (
         <section className="kasa-header">
-            <img
-                src={logoHeader}
-                alt="logo Kasa"
-                className="kasa-logo-header"
-            />
+            <Link to="/" className="kasa-logo-header">
+                <img src={logoHeader} alt="logo Kasa" />
+            </Link>
+
             <nav className="kasa-nav">
                 <Link to="/">Accueil</Link>
                 <Link to="/about">À propos</Link>

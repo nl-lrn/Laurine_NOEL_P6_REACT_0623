@@ -1,21 +1,18 @@
-import { logements } from "../../datas/logements";
+import { logements } from '../../datas/logements';
 import { useParams } from 'react-router-dom';
 
 function Host() {
-    
     const { id } = useParams();
-    const idHost = parseInt(id);
+    const logement = logements.find((logement) => logement.id === id);
 
-    const host = logements.find((logement) => logement.id === idHost);
+    const { name, picture } = logement.host;
 
     return (
         <section>
-            <p>
-                {host && host.name}
-            </p>
-            { host && <img src={host.picture} alt={host.name + " cover" }/>}
-        </section>   
-    )
+            <p>{name}</p>
+            <img src={picture} alt={`${picture} name`} />
+        </section>
+    );
 }
 
 export default Host;
