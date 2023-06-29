@@ -22,27 +22,31 @@ function Slider() {
     };
 
     return (
-        <div className="slider">
-            <div className="slider-images">
+        <div className="kasa-slider">
+            <div className="kasa-slider-images">
                 {images.map((image, index) => (
                     <img
                         key={index}
                         src={image}
                         alt={`Slider ${index}`}
-                        className={`slider-image ${
+                        className={`kasa-slider-image ${
                             index === currentIndex ? 'active' : ''
                         }`}
                     />
                 ))}
-                <div className="position">
-        <p>{currentIndex + 1}/{images.length}</p>
-      </div>
+                <div className="kasa-counter">
+                    <p>
+                        {currentIndex + 1}/{images.length}
+                    </p>
+                </div>
             </div>
-            <button className="slider-btn" onClick={goToPrevious}>
-                Previous
+            <button className="kasa-slider-btn previous" onClick={goToPrevious}>
+                <span>Précédent</span>
+                <i className="fa-sharp fa-solid fa-chevron-left arrow"></i>
             </button>
-            <button className="slider-btn" onClick={goToNext}>
-                Next
+            <button className="kasa-slider-btn next" onClick={goToNext}>
+                <span>Suivant</span>
+                <i className="fa-sharp fa-solid fa-chevron-right arrow"></i>
             </button>
         </div>
     );

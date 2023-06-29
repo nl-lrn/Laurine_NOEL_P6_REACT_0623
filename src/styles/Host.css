@@ -1,0 +1,30 @@
+.kasa-host{
+    display: flex;
+    justify-content: space-between;
+    color: #FF6060;
+    margin-top: 30px;
+}
+
+.kasa-location-title {
+    font-size: 40px;
+}
+
+.kasa-location-logement {
+    font-size: 20px;
+}
+
+.kasa-details img {
+    border-radius: 50%;
+    width: 40%;
+}
+
+.kasa-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.kasa-details span {
+    font-size: 25px;
+    width: 60px;
+}

@@ -1,0 +1,11 @@
+.kasa-tag p {
+    color: white;
+    background-color: #FF6060;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+}
+
+.kasa-tag {
+    display: flex;
+}

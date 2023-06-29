@@ -1,5 +1,6 @@
 import { logements } from '../../datas/logements';
 import { useParams } from 'react-router-dom';
+import '../../styles/Host.css';
 
 function Host() {
     const { id } = useParams();
@@ -8,9 +9,16 @@ function Host() {
     const { name, picture } = logement.host;
 
     return (
-        <section>
-            <p>{name}</p>
-            <img src={picture} alt={`${picture} name`} />
+        <section className="kasa-host">
+            <div>
+                <span className='kasa-location-title'>{logement.title}</span>
+                <br />
+                <span className='kasa-location-logement'>{logement.location}</span>
+            </div>
+            <div className="kasa-details">
+                <span>{name}</span>
+                <img src={picture} alt={`${picture} name`} />
+            </div>
         </section>
     );
 }
