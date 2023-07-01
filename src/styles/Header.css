@@ -53,6 +53,7 @@
     .kasa-nav a {
         margin: 0px 13px;
         font-size: 1.7rem;
+        text-transform: uppercase;
     }
 }
 
@@ -63,13 +64,14 @@
         margin: 30px 10px;
     }
 
-    .kasa-logo-header {
-        width: 25%;
-        padding:10px;
+    .kasa-header img {
+        width: 250%;
+        padding: 10px;
     }
 
     .kasa-nav a {
         margin: 0px 10px;
         font-size: 1.6rem;
+        text-transform: uppercase;
     }
 }

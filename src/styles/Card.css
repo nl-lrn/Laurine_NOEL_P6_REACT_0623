@@ -6,18 +6,11 @@
     padding-bottom: 10px;
 }
 
-.kasa-tag-rate {
+.kasa-card-collapse {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
+    height: 200px;
 }
-
-/* .kasa-card-collapse {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
 
 
 @media screen and (min-width: 781px) and (max-width: 1027px){

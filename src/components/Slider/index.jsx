@@ -34,20 +34,29 @@ function Slider() {
                         }`}
                     />
                 ))}
-                <div className="kasa-counter">
-                    <p>
-                        {currentIndex + 1}/{images.length}
-                    </p>
-                </div>
+                {images.length > 1 && (
+                    <div className="kasa-counter">
+                        <p>
+                            {currentIndex + 1}/{images.length}
+                        </p>
+                    </div>
+                )}
             </div>
-            <button className="kasa-slider-btn previous" onClick={goToPrevious}>
-                <span>Précédent</span>
-                <i className="fa-sharp fa-solid fa-chevron-left arrow"></i>
-            </button>
-            <button className="kasa-slider-btn next" onClick={goToNext}>
-                <span>Suivant</span>
-                <i className="fa-sharp fa-solid fa-chevron-right arrow"></i>
-            </button>
+            {images.length > 1 && (
+                <div>
+                    <button
+                        className="kasa-slider-btn previous"
+                        onClick={goToPrevious}
+                    >
+                        <span>Précédent</span>
+                        <i className="fa-sharp fa-solid fa-chevron-left arrow"></i>
+                    </button>
+                    <button className="kasa-slider-btn next" onClick={goToNext}>
+                        <span>Suivant</span>
+                        <i className="fa-sharp fa-solid fa-chevron-right arrow"></i>
+                    </button>
+                </div>
+            )}
         </div>
     );
 }

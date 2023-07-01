@@ -15,12 +15,26 @@
 .kasa-cardsInfo {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: 60px 35px 30px 0;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    text-decoration: none;
 }
 
 .kasa-coverImg {
+  position: relative;
+}
+
+.kasa-coverImg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 360px;
+    height: 360px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    border-radius: 10px;
+}
+
+.kasa-coverImg img {
     width: 360px;
     height: 360px;
     border-radius: 10px;
@@ -28,18 +42,117 @@
     background-position: center;
 }
 
-.kasa-cardsInfo p {
-    color:blueviolet;
+.kasa-cardsInfo span {
+    color: white;
+    width: 220px;
+    margin: -40px 0 0 20px;
+    z-index:1;
 }
 
 @media screen and (min-width: 781px) and (max-width: 1027px){
-    
+    .kasa-coverImg img {
+        width: 240px;
+        height: 240px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .kasa-coverImg::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 240px;
+        height: 240px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        border-radius: 10px;
+    }
+
+    .kasa-cardsInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 5px;
+        text-decoration: none;
+    }
+
+    .kasa-cardsInfo span {
+        color: white;
+        width: 180px;
+        margin: -40px 0 0 20px;
+        z-index:1;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 780px){
-    
+    .kasa-coverImg img {
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .kasa-coverImg::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 200px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        border-radius: 10px;
+    }
+
+    .kasa-cardsInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 5px;
+        text-decoration: none;
+    }
+
+    .kasa-cardsInfo span {
+        color: white;
+        width: 120px;
+        margin: -40px 0 0 20px;
+        z-index:1;
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 549px) {
-    
+    .kasa-coverImg img {
+        width: 250px;
+        height: 250px;
+        border-radius: 10px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .kasa-coverImg::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 250px;
+        height: 250px;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+        border-radius: 10px;
+    }
+
+    .kasa-cardsInfo {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 5px;
+        text-decoration: none;
+    }
+
+    .kasa-cardsInfo span {
+        color: white;
+        width: 200px;
+        margin: -45px 0 0 20px;
+        z-index:1;
+        font-size: 15px;
+
+    }
 }

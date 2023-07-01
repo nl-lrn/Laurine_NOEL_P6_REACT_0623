@@ -7,13 +7,16 @@ function DisplayCards() {
         <section className="kasa-displayCardsList kasa-displayCardsSection">
             {logements.map(({ id, cover, title }) => (
                 <Link to={`/card/${id}`} key={id} className="kasa-cardsInfo">
-                    <img
-                        className="kasa-coverImg"
+                    <div className="kasa-coverImg">
+                        <img
                         src={cover}
                         alt={`${title} cover`}
-                    />
+                        />
+                    </div>
+                    
                     <span>{title}</span>
                 </Link>
+                
             ))}
         </section>
     );
