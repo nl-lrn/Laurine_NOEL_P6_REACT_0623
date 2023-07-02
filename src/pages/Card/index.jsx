@@ -1,5 +1,6 @@
 import { logements } from '../../datas/logements.js';
 import { useParams } from 'react-router-dom';
+import Error from '../../components/Error';
 import Slider from '../../components/Slider';
 import Host from '../../components/Host';
 import Collapse from '../../components/Collapse';
@@ -9,6 +10,10 @@ function Card() {
   const { id } = useParams();
   const logement = logements.find((logement) => logement.id === id);
 
+  if(!logement) {
+    return <Error />
+  }
+  
   return (
     <section className="kasa-card">
       <section className="kasa-slider">
