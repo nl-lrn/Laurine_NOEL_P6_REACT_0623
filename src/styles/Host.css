@@ -42,6 +42,11 @@
     display: flex;
 }
 
+.kasa-stars img {
+    margin-top: 20px;
+    width: 20%;
+}
+
 @media screen and (min-width: 781px) and (max-width: 1027px){
     .kasa-location-title {
         font-size: 35px;
@@ -69,12 +74,13 @@
 
     .kasa-stars img {
         margin-top: 20px;
+        width: 19%;
     }
 }
 
 @media screen and (min-width: 550px) and (max-width: 780px){
     .kasa-location-title {
-        font-size: 33px;
+        font-size: 25px;
     }
     
     .kasa-location-logement {
