@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // importation des différentes pages utiles pour la navigation
 import Home from './pages/Home/';
@@ -14,8 +14,10 @@ import Error from './components/Error';
 // import { logements } from './datas/logements.js';
 // importation du style
 import './styles/style.css';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
+const rootElement = document.getElementById('root');
+createRoot(rootElement).render(
     <React.StrictMode>
         <Router>
             {/* implantation du Header - pages Home et About */}
@@ -32,5 +34,6 @@ ReactDOM.render(
             <Footer />
         </Router>
     </React.StrictMode>,
-    document.getElementById('root')
+    // document.getElementById('root')
+    
 );

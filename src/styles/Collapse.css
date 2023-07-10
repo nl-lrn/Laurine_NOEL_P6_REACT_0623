@@ -48,7 +48,7 @@
 }
 
 .kasa-dropDown.card-collapse  {
-    margin: 20px;
+    margin: 20px 0;
     width: 550px;
 }
 
@@ -59,6 +59,7 @@
 .card-collapse p {
     width: 500px;
     display:flex;
+    white-space: pre-wrap;
 }
 
 .kasa-card-collapse {
@@ -101,7 +102,7 @@
     }
 
     .kasa-dropDown.card-collapse  {
-        margin: 15px;
+        margin: 15px 0;
         width: 450px;
     }
     
@@ -152,7 +153,7 @@
     }
 
     .kasa-dropDown.card-collapse  {
-        margin: 15px;
+        margin: 15px 0;
         width: 400px;
     }
     
@@ -168,7 +169,7 @@
 
 @media screen and (min-width: 781px) and (max-width: 945px){ 
     .kasa-dropDown.card-collapse  {
-        margin: 5px;
+        margin: 5px 0;
         width: 325px;
     }
     
@@ -218,7 +219,7 @@
     }
 
     .kasa-dropDown.card-collapse  {
-        margin: 5px;
+        margin: 5px 2px;
         width: 300px;
     }
     
@@ -227,14 +228,14 @@
     }
     
     .card-collapse p {
-        width: 295px;
+        width: 280px;
         display:flex;
     }
 }
 
 @media screen and (min-width: 650px) and (max-width: 680px){ 
     .kasa-dropDown.card-collapse  {
-        margin: 5px;
+        margin: 5px 0;
         width: 450px;
     }
     
@@ -366,5 +367,4 @@
         align-items: center;
         height: 360px;
     }
-    
 }

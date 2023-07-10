@@ -12,15 +12,23 @@
     height: 250px;
 }
 
-
 @media screen and (min-width: 781px) and (max-width: 1027px){
-    
+    .kasa-card-collapse {
+        height: 280px;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (min-width: 550px) and (max-width: 780px){
-    
+    .kasa-card-collapse {
+        height: 490px;
+        justify-content: space-evenly;
+    }
 }
 
 @media screen and (max-width: 549px) {
-    
+    .kasa-card-collapse {
+        height: 550px;
+        justify-content: space-evenly;
+    }
 }

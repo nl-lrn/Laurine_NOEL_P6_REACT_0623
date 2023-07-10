@@ -39,4 +39,3 @@ function Collapse({ id, label, description, parentClassName }) {
 }
 
 export default Collapse;
-

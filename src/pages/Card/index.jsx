@@ -33,7 +33,7 @@ function Card() {
         <section>
             <Collapse
             label="Équipements"
-            description={logement.equipments}
+            description={logement.equipments.join('\n')}
             parentClassName="card"
             />
         </section>
