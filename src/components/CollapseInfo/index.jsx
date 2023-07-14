@@ -1,5 +1,6 @@
 import Collapse from '../Collapse';
 
+// tableau contenant les informations necessaires à inclure dans les Collapse de la page 'About'
 function CollapseInfo() {
     const infosAbout = [
         {
@@ -29,7 +30,9 @@ function CollapseInfo() {
     ];
 
     return (
+        //
         <div>
+            {/* utilisation de la méthode map() pour récuperer l'id, le label et la description afin de les afficher et générer dynamiquement plusieurs composants collapse avec des données différentes */}
             {infosAbout.map(({ id, label, description }) => (
                 <Collapse key={id} label={label} description={description} />
             ))}

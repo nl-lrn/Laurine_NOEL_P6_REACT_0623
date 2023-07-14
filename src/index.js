@@ -20,7 +20,7 @@ const rootElement = document.getElementById('root');
 createRoot(rootElement).render(
     <React.StrictMode>
         <Router>
-            {/* implantation du Header - pages Home et About */}
+            {/* importation du Header - pages Home et About */}
             <Header />
             <Routes>
                 {/* gestion des différentes paths utilisées */}
@@ -30,10 +30,8 @@ createRoot(rootElement).render(
                 {/* le '*' permet de capter toutes les paths non-utilisées ou non-existantes en gérant les erreurs d'URL */}
                 <Route path="*" element={<Error />} />
             </Routes>
-            {/* implantation du Footer - pages Home et About */}
+            {/* importation du Footer - pages Home et About */}
             <Footer />
         </Router>
-    </React.StrictMode>,
-    // document.getElementById('root')
-    
+    </React.StrictMode>
 );

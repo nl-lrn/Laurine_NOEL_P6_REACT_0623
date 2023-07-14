@@ -5,6 +5,7 @@ function Footer() {
     return (
         <section className="kasa-footer">
             <img
+                /* permet l'affichage du logo */
                 src={logoFooter}
                 alt="logo Kasa"
                 className="kasa-logo-footer"
