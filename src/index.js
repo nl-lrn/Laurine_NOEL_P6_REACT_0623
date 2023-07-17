@@ -1,5 +1,5 @@
 import React from 'react';
-// import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // importation des différentes pages utiles pour la navigation
 import Home from './pages/Home/';
@@ -14,7 +14,6 @@ import Error from './components/Error';
 // import { logements } from './datas/logements.js';
 // importation du style
 import './styles/style.css';
-import { createRoot } from 'react-dom/client';
 
 const rootElement = document.getElementById('root');
 createRoot(rootElement).render(
